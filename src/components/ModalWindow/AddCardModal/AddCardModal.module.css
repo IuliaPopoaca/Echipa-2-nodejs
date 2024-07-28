@@ -1,0 +1,124 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.textareaInput {
+	width: 100%;
+	min-height: 120px;
+	border: 1px solid var(--color-green-border);
+	border-radius: 8px;
+	padding: 10px;
+	margin-bottom: 24px;
+	background-color: var(--modal-colo-transparent);
+	color: var(--color-text-base);
+	outline: none;
+	resize: vertical;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+}
+
+.textareaInput:focus {
+	border: 1px solid var(--color-green);
+}
+
+.labelContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+}
+
+.labelTitle {
+	display: block;
+	margin-bottom: 4px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+	color: var(--card-text);
+}
+
+.radioGroup {
+	display: flex;
+	flex-direction: row;
+}
+
+.radioLabel {
+	display: flex;
+	align-items: center;
+	margin-right: 8px;
+}
+
+.radioInput {
+	display: none;
+}
+
+.customRadio {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: currentColor;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+}
+
+.customRadio::before {
+	content: '';
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: transparent;
+	border: 2px solid transparent;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.3s ease-in-out;
+}
+
+.radioInput:checked+.customRadio {
+	border: 1px solid currentColor;
+	background-color: var(--color-modal-time);
+}
+
+.radioInput:checked+.customRadio::before {
+	background: currentColor;
+	border-color: currentColor;
+}
+
+.lowLabel {
+	color: var(--priority-low);
+}
+
+.mediumLabel {
+	color: var(--priority-medium);
+}
+
+.highLabel {
+	color: var(--priority-high);
+}
+
+.withoutLabel {
+	color: var(--priority-without);
+}
+
+.deadlineContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+
+.deadlineContainer span {
+	margin-bottom: 8px;
+	color: var(--card-text);
+}
+
+@media screen and (min-width: 768px) {
+	.textareaInput {
+	  min-height: 150px;
+	}
+}
