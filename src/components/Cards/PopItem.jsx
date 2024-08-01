@@ -1,9 +1,9 @@
 import { PopupWrapper, PopupItem, PopupText, PopupIcon } from './Card.styled';
 import sprite from '../../images/sprite.svg';
 import { useSelector } from 'react-redux';
-import { selectColumns } from 'redux/dashboards/dashboardsSelectors';
+import { selectColumns } from '../../redux/dashboards/dashboardsSelectors';
 import { useDispatch } from 'react-redux';
-import { changeColumn } from 'redux/dashboards/dashboardsOperations';
+import { changeColumn } from '../../redux/dashboards/dashboardsOperations';
 
 const CardMovePopup = ({ card, columnName }) => {
   const dispatch = useDispatch();

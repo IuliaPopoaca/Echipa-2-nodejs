@@ -1,7 +1,7 @@
 import { Button, Icon, IconWrapper, Text } from './AddButton.styled';
 import sprite from '../../../images/sprite.svg';
 import { useSelector } from 'react-redux';
-import { selectColumnsLength } from 'redux/dashboards/dashboardsSelectors';
+import { selectColumnsLength } from '../../../redux/dashboards/dashboardsSelectors';
 
 const AddButton = ({ openModal }) => {
   const columnsLength = useSelector(selectColumnsLength);

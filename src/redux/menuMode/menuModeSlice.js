@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { logOut } from 'redux/auth/authOperations';
+import { logOut } from '../auth/authOperations';
 
 export const menuModeSlice = createSlice({
   name: 'menuMode',

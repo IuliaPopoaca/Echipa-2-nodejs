@@ -3,7 +3,7 @@ import DatePicker from 'react-datepicker';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { useDispatch } from 'react-redux';
-import { addCard } from 'redux/dashboards/dashboardsOperations';
+import { addCard } from '../../../../redux/dashboards/dashboardsOperations';
 import 'react-datepicker/dist/react-datepicker.css';
 import {
   FormWrapper,

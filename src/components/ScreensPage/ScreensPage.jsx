@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Wrapper } from './ScreensPage.styled';
-import { selectIsMenuOpen } from 'redux/menuMode/menuModeSelectors';
-import { closeMenuMode } from 'redux/menuMode/menuModeSlice';
+import { selectIsMenuOpen } from '../../redux/menuMode/menuModeSelectors';
+import { closeMenuMode } from '../../redux/menuMode/menuModeSlice';
 
 import HeaderDashboard from './HeaderDashboard/HeaderDashboard';
 import MainDashboard from './MainDashboard/MainDashboard';
