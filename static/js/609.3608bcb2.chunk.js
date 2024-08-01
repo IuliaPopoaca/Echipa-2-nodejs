@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkechipa_2=self.webpackChunkechipa_2||[]).push([[609],{7609:function(a,c,e){e(2791);c.Z=e.p+"static/media/sprite.ba779c7c04a0825a323a6507da752bc9.svg"}}]);
+//# sourceMappingURL=609.3608bcb2.chunk.js.map
