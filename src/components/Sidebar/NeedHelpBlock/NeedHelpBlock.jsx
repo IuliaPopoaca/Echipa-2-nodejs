@@ -11,7 +11,7 @@ import {
   CircleIcon,
 } from './NeedHelpBlock.styled';
 import BasicModal from 'components/Modals/BasicModal';
-import NeedHelpModal from 'components/Modals/NeedHelpModal';
+import NeedHelpModal from '../../Modals/NeedHelpModal';
 
 const NeedHelpBlock = () => {
   const [open, setOpen] = useState(false);

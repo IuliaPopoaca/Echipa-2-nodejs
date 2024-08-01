@@ -3,8 +3,8 @@ import { useState } from 'react';
 import {
   deleteDashboard,
   getDashboardById,
-} from 'redux/dashboards/dashboardsOperations';
-import { closeMenuMode } from 'redux/menuMode/menuModeSlice';
+} from '../../../redux/dashboards/dashboardsOperations';
+import { closeMenuMode } from '../../../redux/menuMode/menuModeSlice';
 
 import sprite from '../../../images/sprite.svg';
 import BasicModal from 'components/Modals/BasicModal/BasicModal';

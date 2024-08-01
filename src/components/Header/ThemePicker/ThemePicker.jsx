@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectUserTheme } from 'redux/auth/authSelectors';
+import { selectUserTheme } from '../../../redux/auth/authSelectors';
 import { theme } from 'constants/theme';
 
 import {
@@ -11,7 +11,7 @@ import {
   Wrapper,
 } from './ThemePicker.styled';
 import sprite from '../../../images/sprite.svg';
-import { changeTheme } from 'redux/auth/authOperations';
+import { changeTheme } from '../../../redux/auth/authOperations';
 
 const ThemePicker = () => {
   const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import sprite from '../../../images/sprite.svg';
-import { deleteColumn } from 'redux/dashboards/dashboardsOperations';
+import { deleteColumn } from '../../../redux/dashboards/dashboardsOperations';
 import Card from 'components/Cards/Card';
 import BasicModal from 'components/Modals/BasicModal/BasicModal';
 import EditColumnModal from 'components/Modals/ColumnModal/EditColumnModal/EditColumnModal';

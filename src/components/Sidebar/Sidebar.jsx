@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { logOut } from 'redux/auth/authOperations';
-import { selectUserTheme } from 'redux/auth/authSelectors';
-import { selectIsMenuOpen } from 'redux/menuMode/menuModeSelectors';
+import { logOut } from '../../redux/auth/authOperations';
+import { selectUserTheme } from '../../redux/auth/authSelectors';
+import { selectIsMenuOpen } from '../../redux/menuMode/menuModeSelectors';
 
 import BoardList from './BoardList';
 import NeedHelpBlock from 'components/Sidebar/NeedHelpBlock/NeedHelpBlock';
@@ -26,7 +26,7 @@ import {
   TextLogOut,
   IconClose,
 } from './Sidebar.styled';
-import { closeMenuMode } from 'redux/menuMode/menuModeSlice';
+import { closeMenuMode } from '../../redux/menuMode/menuModeSlice';
 
 export const Sidebar = () => {
   const dispatch = useDispatch();

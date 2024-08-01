@@ -13,7 +13,7 @@ import {
   editCard,
   changeColumn,
 } from './dashboardsOperations';
-import { logOut } from 'redux/auth/authOperations';
+import { logOut } from '../auth/authOperations';
 
 const handlePending = state => {
   state.isLoading = true;

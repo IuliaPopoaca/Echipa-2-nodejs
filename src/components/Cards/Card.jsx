@@ -22,7 +22,10 @@ import {
   PopupItem,
   PopupText,
 } from './Card.styled';
-import { deleteCard, editCard } from 'redux/dashboards/dashboardsOperations';
+import {
+  deleteCard,
+  editCard,
+} from '../../redux/dashboards/dashboardsOperations';
 import BasicModal from 'components/Modals/BasicModal/BasicModal';
 import EditCardModal from 'components/Modals/CardModal/EditCardModal/EditCardModal';
 

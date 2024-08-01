@@ -22,7 +22,7 @@ import sprite from '../../../../images/sprite.svg';
 
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-import { editDashboard } from 'redux/dashboards/dashboardsOperations';
+import { editDashboard } from '../../../../redux/dashboards/dashboardsOperations';
 import { useDispatch } from 'react-redux';
 
 const validationSchema = Yup.object().shape({

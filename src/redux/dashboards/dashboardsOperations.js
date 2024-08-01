@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import instance from 'redux/auth/authOperations';
+import instance from '../auth/authOperations';
 
 // dashboards
 export const getAllDashboards = createAsyncThunk(

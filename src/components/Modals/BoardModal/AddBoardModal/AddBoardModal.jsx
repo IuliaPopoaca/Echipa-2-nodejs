@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectAllDashboards } from 'redux/dashboards/dashboardsSelectors';
-import { addDashboard } from 'redux/dashboards/dashboardsOperations';
+import { selectAllDashboards } from '../../../../redux/dashboards/dashboardsSelectors';
+import { addDashboard } from '../../../../redux/dashboards/dashboardsOperations';
 
 import { Formik } from 'formik';
 import * as Yup from 'yup';

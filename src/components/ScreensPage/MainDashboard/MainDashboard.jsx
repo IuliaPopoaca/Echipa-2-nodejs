@@ -9,7 +9,7 @@ import {
   selectColumns,
   selectColumnsLength,
   selectCurrentDashboard,
-} from 'redux/dashboards/dashboardsSelectors';
+} from '../../../redux/dashboards/dashboardsSelectors';
 
 const MainDashboard = () => {
   const columnLength = useSelector(selectColumnsLength);

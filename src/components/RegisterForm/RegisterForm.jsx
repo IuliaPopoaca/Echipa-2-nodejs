@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-import { register } from 'redux/auth/authOperations';
+import { register } from '../../redux/auth/authOperations';
 
 import {
   AuthForm,
@@ -17,7 +17,7 @@ import {
 import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai';
 import Loader from 'components/AuthPage/Loader';
 import { useSelector } from 'react-redux';
-import { selectIsLoading } from 'redux/auth/authSelectors';
+import { selectIsLoading } from '../../redux/auth/authSelectors';
 // import GoogleLogo from '../../images/google-color-svgrepo-com.svg';
 
 const validationSchema = Yup.object().shape({

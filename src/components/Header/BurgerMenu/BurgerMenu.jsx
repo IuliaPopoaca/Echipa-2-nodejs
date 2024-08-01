@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { openMenuMode } from 'redux/menuMode/menuModeSlice';
-import { selectIsMenuOpen } from 'redux/menuMode/menuModeSelectors';
+import { openMenuMode } from '../../../redux/menuMode/menuModeSlice';
+import { selectIsMenuOpen } from '../../../redux/menuMode/menuModeSelectors';
 import sprite from '../../../images/sprite.svg';
 
 import { Button, Icon } from './BurgerMenu.styled';
