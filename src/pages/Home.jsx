@@ -3,16 +3,16 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from 'constants/theme';
 import { Outlet, useNavigate } from 'react-router-dom';
 import { Suspense, useEffect } from 'react';
-import { selectUserTheme } from 'redux/auth/authSelectors';
+import { selectUserTheme } from '../redux/auth/authSelectors';
 import {
   getAllDashboards,
   getDashboardById,
-} from 'redux/dashboards/dashboardsOperations';
+} from '../redux/dashboards/dashboardsOperations';
 
 import Header from 'components/Header/Header';
 import { Container } from 'components/Container/Container.styled';
 import { Sidebar } from 'components/Sidebar/Sidebar';
-import Loader from 'components/AuthPage/Loader';
+import Loader from '../components/AuthPage/Loader';
 
 const Home = () => {
   const dispatch = useDispatch();
