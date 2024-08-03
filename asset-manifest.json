@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/css/main.378b5eb3.css",
-    "main.js": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/main.2e67d61b.js",
+    "main.js": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/main.ba4e8b9f.js",
     "static/js/855.6bd33864.chunk.js": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/855.6bd33864.chunk.js",
     "static/js/407.8ecacc30.chunk.js": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/407.8ecacc30.chunk.js",
     "static/js/445.1002e8ab.chunk.js": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/445.1002e8ab.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/user-light.svg": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/media/user-light.c757b6ef444375f4367cc94835fbb6ac.svg",
     "static/media/user-violet.svg": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/media/user-violet.1ad82273455132b83953bbe9a6cc602a.svg",
     "main.378b5eb3.css.map": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/css/main.378b5eb3.css.map",
-    "main.2e67d61b.js.map": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/main.2e67d61b.js.map",
+    "main.ba4e8b9f.js.map": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/main.ba4e8b9f.js.map",
     "855.6bd33864.chunk.js.map": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/855.6bd33864.chunk.js.map",
     "407.8ecacc30.chunk.js.map": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/407.8ecacc30.chunk.js.map",
     "445.1002e8ab.chunk.js.map": "/IuliaPopoaca/Echipa-2-nodejs-frontend/static/js/445.1002e8ab.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.378b5eb3.css",
-    "static/js/main.2e67d61b.js"
+    "static/js/main.ba4e8b9f.js"
   ]
 }
