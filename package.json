@@ -2,7 +2,7 @@
   "name": "echipa-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://IuliaPopoaca.github.io/https://github.com/IuliaPopoaca/Echipa-2-nodejs-frontend/",
+  "homepage": "https://github.com/IuliaPopoaca/Echipa-2-nodejs-frontend",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
@@ -15,6 +15,7 @@
     "axios": "^1.7.2",
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
+    "echipa-2": "file:",
     "formik": "^2.4.6",
     "framer-motion": "^11.3.19",
     "modern-normalize": "^2.0.0",
