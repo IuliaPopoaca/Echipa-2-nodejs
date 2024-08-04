@@ -12,7 +12,7 @@ const root = document.getElementById('root');
 createRoot(root).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/Echipa-2-nodejs-frontend">
+      <BrowserRouter basename="/IuliaPopoaca/Echipa-2-nodejs-frontend">
         <App />
       </BrowserRouter>
     </Provider>
